@@ -47,7 +47,7 @@ async def _8ball(ctx,*,question):
 
 @client.command()
 async def infoserver(ctx):
-    await ctx.send('The purpose of this server is for Celine who\'s trying to make a discord bot')
+    await ctx.send('This server is for Celine who\'s trying to make a discord bot')
 
 @client.command()
 async def clear(ctx, amount=5):
